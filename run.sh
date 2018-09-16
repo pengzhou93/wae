@@ -44,9 +44,9 @@ then
 #   ./run.sh download_mnist_data.py
     python download_mnist_data.py
 
-elif [ "$1" = "run.py" ]
+elif [ "$1" = "mnist_mmd" ]
 then
-#    ./run.sh "run.py" debug
+#    ./run.sh mnist_mmd debug
 
     file="run.py"
     line=1
